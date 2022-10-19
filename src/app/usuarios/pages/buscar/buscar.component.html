@@ -1,0 +1,23 @@
+<p>Amilton Rodriguez - 25-0259-2017</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="Col"></th>
+            <th scope="Col">Nombre</th>
+            <th scope="Col">Correo</th>
+            <th scope="Col">Rol</th>
+            <th scope="Col">Estado</th>
+            <th scope="Col">Google</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of usuarios">
+            <th scope="row">{{item.id}}</th>
+                <td>{{item.nombre}}</td>
+                <td>{{item.correo}}</td>
+                <td>{{item.rol}}</td>
+                <td>{{item.estado}}</td>
+                <td>{{item.google}}</td>
+        </tr>
+    </tbody>
+</table>
